@@ -95,7 +95,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Rick creates a ticket</h4>
 <p>
-  
+  To create a ticket as the user Rick Sanchez in osTicket, Rick would first need to access the client portal, typically through a web interface provided by the organization using osTicket. Upon reaching the portal, he would select the option to "Open a New Ticket" or a similarly labeled action. In the ticket submission form, Rick would enter his details—assuming his user profile is already created in the system, he might need to log in or his information could be auto-filled. He would then describe the issue or request in the provided fields, specifying the subject and detailed description, and select the relevant help topic or department that best matches his needs. If necessary, Rick could also attach any files that support his ticket. After reviewing his submission for accuracy, he would submit the ticket, which then gets logged into the osTicket system, generating a unique ticket ID for tracking and follow-up, and triggering any configured notifications or workflows related to new ticket submissions.
 </p>
 <br/>
 
@@ -104,7 +104,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane create ticket priority </h4>
 <p>
-  
+  As Jane, the admin in osTicket, adjusting ticket priority involves logging into the administrative backend with her credentials. Once logged in, she would navigate to the "Tickets" section and locate the specific ticket whose priority needs adjustment. Upon opening the ticket's detailed view, Jane would look for the "Priority" field, which is typically part of the ticket's basic information or settings. This field usually contains a dropdown menu from which she can select a new priority level for the ticket—such as "Low," "Normal," "High," or any custom priorities that have been defined in the osTicket system settings. After selecting the desired priority level, Jane would save the changes, effectively updating the ticket's priority. This action might trigger notifications to the relevant parties, such as the ticket owner and assigned agents, to inform them of the change in priority, depending on the notification settings configured within osTicket. This process helps in ensuring that tickets are handled according to their urgency and impact, allowing the support team to better manage their workload and respond effectively to user needs.
 </p>
 <br/>
 
@@ -113,7 +113,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane assigns ticket to John</h4>
 <p>
-  
+  To assign Rick's ticket to John, Jane would log into the osTicket admin panel using her administrator or agent credentials and navigate to the "Tickets" section. After locating Rick's ticket through a search or by browsing the ticket list, she would open it to access its detailed view. Within this view, Jane would find the "Assign" option. She would then select or type in John's name in the assignment field, effectively reassigning the ticket from either an unassigned status to John. Upon confirming the assignment, the change would be saved, and osTicket would update the ticket's status to reflect John as the new assignee. This reassignment process is typically accompanied by automatic notifications to John, informing him of the new ticket assignment, and potentially to Rick and other relevant stakeholders, keeping them updated on the progress and current handling of the ticket.
 </p>
 <br/>
 
@@ -122,7 +122,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane updates SLA </h4>
 <p>
-  
+   Jane can update the Service Level Agreement (SLA) to "Sev-B" for a specific ticket or as a default for certain types of tickets by accessing the administrative panel. If updating SLA for an individual ticket, she would navigate to the "Tickets" section, locate the ticket in question, and open its detailed view. Within the ticket's details, Jane would look for the "SLA Plan" field. Here, she can select "Sev-B" from a dropdown list of predefined SLA plans. After selecting "Sev-B" for the ticket, she would save the changes, thereby updating the ticket's SLA. This adjustment might trigger notifications to the relevant parties and will dictate the priority and response requirements for the ticket moving forward, ensuring it's handled according to the "Sev-B" specifications.
 </p>
 <br/>
 
@@ -131,7 +131,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane assigns department</h4>
 <p>
-  
+  Within the ticket details, Jane would look for the option to edit or change the department. She would then select the desired department from a dropdown list or through a search function within this option. Upon choosing the appropriate department, Jane would save the changes, effectively reassigning the ticket. This action may trigger notifications to the relevant staff members within the new department, alerting them of the newly assigned ticket and ensuring that it is addressed by the appropriate team, in line with the organization's workflow and service level agreements.
 </p>
 <br/>
 
@@ -140,7 +140,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane post reply to ticket</h4>
 <p>
-  
+   Jane can post a reply to a ticket by logging into the administrative or agent interface, depending on her role, and navigating to the "Tickets" section. Once she locates the specific ticket she wishes to respond to, she can open it to view its details. Within the ticket view, there is typically a "Post Reply" button or a reply field where Jane can enter her message to the ticket requester or any other participant in the ticket conversation. After composing her response, she can use any available formatting tools to structure her message effectively and, if necessary, attach files that may help in resolving the ticket or providing additional information. Before posting her reply, Jane has the option to preview it to ensure accuracy and clarity. Once satisfied, she can submit her reply, which will then be recorded in the ticket's history and, depending on the osTicket configuration, sent as an email notification to the ticket requester and any other relevant parties. This process enables Jane to maintain clear and effective communication with users, providing them with the assistance or information they need.
 </p>
 <br/>
 
@@ -149,7 +149,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Assigned agent fixes issue and resolves ticket</h4>
 <p>
-  
+  In osTicket, when John is ready to resolve a ticket, he would first log into the system with his agent credentials and navigate to his assigned tickets, finding the specific ticket in question. Upon opening the ticket, John would review any outstanding details, add any final notes or responses necessary for clear communication and documentation, ensuring the requester's issue is fully addressed. To officially resolve the ticket, John would look for an option such as "Close Ticket," "Resolve," or a similar command, often found as a button or within a dropdown menu of actions at the top or bottom of the ticket view. Before finalizing the resolution, John might have the opportunity to categorize the resolution type (e.g., resolved, user error, no issue found) and add any closing remarks that summarize the resolution process. Once satisfied, he would confirm the closure, which updates the ticket's status to resolved or closed in osTicket, typically triggering a notification to the ticket requester and any other relevant parties to inform them that their issue has been successfully resolved, effectively concluding the support interaction.
 </p>
 <br/>
 
@@ -160,7 +160,8 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Morty creates a ticket</h4>
 <p>
-  
+  To create a ticket as the user Morty Smith in osTicket, Morty would first need to access the client portal, typically through a web interface provided by the organization using osTicket. Upon reaching the portal, he would select the option to "Open a New Ticket" or a similarly labeled action. In the ticket submission form, Morty would enter his details—assuming his user profile is already created in the system, he might need to log in or his information could be auto-filled. He would then describe the issue or request in the provided fields, specifying the subject and detailed description, and select the relevant help topic or department that best matches his needs. If necessary, Morty could also attach any files that support his ticket. After reviewing his submission for accuracy, he would submit the ticket, which then gets logged into the osTicket system, generating a unique ticket ID for tracking and follow-up, and triggering any configured notifications or workflows related to new ticket submissions.
+</p>
 </p>
 <br/>
 
@@ -169,7 +170,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane create ticket priority </h4>
 <p>
-  
+   As Jane, the admin in osTicket, adjusting ticket priority involves logging into the administrative backend with her credentials. Once logged in, she would navigate to the "Tickets" section and locate the specific ticket whose priority needs adjustment. Upon opening the ticket's detailed view, Jane would look for the "Priority" field, which is typically part of the ticket's basic information or settings. This field usually contains a dropdown menu from which she can select a new priority level for the ticket—such as "Low," "Normal," "High," or any custom priorities that have been defined in the osTicket system settings. After selecting the desired priority level, Jane would save the changes, effectively updating the ticket's priority. This action might trigger notifications to the relevant parties, such as the ticket owner and assigned agents, to inform them of the change in priority, depending on the notification settings configured within osTicket. This process helps in ensuring that tickets are handled according to their urgency and impact, allowing the support team to better manage their workload and respond effectively to user needs.
 </p>
 <br/>
 
@@ -178,7 +179,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane assigns ticket to self</h4>
 <p>
-  
+  Jane would find the "Assign to" option, which could be a button or a dropdown menu within the ticket's detailed view. She would select or type her own name in this field, thereby reassigning the ticket from its current assignee or status to herself. After selecting her name, Jane would confirm the assignment by saving the changes or clicking an "Assign" button, depending on the specific interface design of her osTicket system. This action transfers the responsibility of the ticket to Jane, allowing her to manage its resolution directly. The system may also notify Rick and any other relevant parties about this change in ticket assignment, ensuring transparency and communication within the ticket's lifecycle.
 </p>
 <br/>
 
@@ -187,7 +188,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane updates SLA </h4>
 <p>
-  
+   Jane can update the Service Level Agreement (SLA) to "Sev-C" for a specific ticket or as a default for certain types of tickets by accessing the administrative panel. If updating SLA for an individual ticket, she would navigate to the "Tickets" section, locate the ticket in question, and open its detailed view. Within the ticket's details, Jane would look for the "SLA Plan" field. Here, she can select "Sev-C" from a dropdown list of predefined SLA plans. After selecting "Sev-C" for the ticket, she would save the changes, thereby updating the ticket's SLA. This adjustment might trigger notifications to the relevant parties and will dictate the priority and response requirements for the ticket moving forward, ensuring it's handled according to the "Sev-C" specifications.
 </p>
 <br/>
 
@@ -196,7 +197,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane assigns department</h4>
 <p>
-  
+  Within the ticket details, Jane would look for the option to edit or change the department. She would then select the desired department from a dropdown list or through a search function within this option. Upon choosing the appropriate department, Jane would save the changes, effectively reassigning the ticket. This action may trigger notifications to the relevant staff members within the new department, alerting them of the newly assigned ticket and ensuring that it is addressed by the appropriate team, in line with the organization's workflow and service level agreements.
 </p>
 <br/>
 
@@ -205,7 +206,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h4>Jane post reply to ticket and closes ticket</h4>
 <p>
-  
+  Jane can post a reply and close a ticket by first accessing the ticket through the administrative or agent interface, navigating to the "Tickets" section, and selecting the relevant ticket. Within the ticket's detailed view, she would use the reply area or "Post Reply" button to compose and send her final message or resolution to the ticket requester, ensuring clear and comprehensive communication. After submitting her reply, Jane would proceed to close the ticket by selecting the "Close Ticket," "Resolve," or a similar option, which might be prominently displayed as a button or found within a drop-down actions menu. Before confirming the closure, Jane may have the opportunity to categorize the resolution and add any closing notes for internal reference. Closing the ticket changes its status to resolved or closed within osTicket, signaling that the issue has been addressed to satisfaction. This action usually triggers notifications to the ticket requester and possibly other stakeholders, informing them of the ticket's resolution and closure, thereby wrapping up the support case in a formal and organized manner.
 </p>
 <br/>
 
